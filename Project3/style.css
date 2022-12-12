@@ -1,0 +1,541 @@
+/* navbar style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: left;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 70px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* logo and images */
+#logo{
+    margin: 7px 34px;
+}
+#navbar img{
+    height: 40px;
+    margin: 5px 5px;
+
+}
+
+/* navigation style and list styling */
+#navbar .left {
+    display: flex;
+}
+#navbar .right {
+    display: flex;
+    margin: 0px 200px;
+    /* float: right; */
+    position: relative;
+    right: -200px;
+    top: 5px;
+    font-size: 1.4rem;
+}
+
+#navbar .left li{
+    list-style: none;
+    margin: 21px 8px;
+    font-size: 1.2rem;
+}
+#navbar .left li:hover{
+    background-color: lightgreen;
+
+}
+
+#navbar .left li a{
+    text-decoration: none;
+    color: white;
+    /* padding: 20px 0px 0px 20px ; */
+}
+#navbar .right li{
+    list-style: none;
+    margin: 20px 10px;
+    font-size: 1.4rem;
+}
+#navbar .right li a{
+    text-decoration: none;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    padding: 10px  ;
+    /* margin: 0px 30px 0px 0px ; */
+    color:black;
+}
+#link-1{
+    background: pink;
+}
+#link-1:hover{
+    background: rgb(183, 120, 131);
+}
+#link-2{
+    background: lightyellow;
+}
+#link-2:hover{
+    background: rgb(194, 194, 145);
+}
+#link-3{
+    background: lightgreen;
+}
+#link-3:hover{
+    background: rgb(97, 176, 97);
+}
+
+/* Home section */
+#page1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    height: 520px;
+}
+
+#page1::before{
+    content: "";
+    background-color: rgb(10, 7, 20);
+    position: absolute;
+    height: 770px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+#page1 .page1-head{
+    font-size: 60px;
+    color: white;
+    margin:-100px 0px 0px 0px;
+}
+#page1 .page1-div{
+    margin: 20px 10px 20px 10px ;
+    font-size: 25px;
+    color: white;
+}
+#page1 .search{
+    padding: 5px 5px ;
+    width: 36%;
+    height: 8%;
+    text-align: center;
+    border-radius: 20px;
+}
+ .page1-link{
+    font-size: 25px;
+    color: white;
+    margin: 20px 10px 10px 10px ;
+}
+.page1-link:hover{
+   color: green;
+}
+
+
+
+/* page2 section  */
+#page2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 631px;
+}
+#page2::before{
+    content: "";
+    background-color: rgb(197, 213, 200);
+    z-index: -1;
+    position: absolute;
+    height: 630px;;
+    width: 100%;
+}
+.page2-head{
+    font-size: 4.7rem;
+    padding:30px 205px;
+}
+#page2 .page2-div{
+    font-size: 1.3rem;
+    padding: 0px 150px;
+}
+#page2 ul .item2{
+    list-style-type: none;
+    margin: 30px 225px ;
+}
+#page2 .item2 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#link-5{
+    background-color: rgb(103, 230, 103);
+    border-radius: 30px;
+    padding: 10px 45px;
+    color: white;
+}
+#link-5:hover{
+    background-color: rgb(84, 202, 84);
+}
+#link-6{
+    background-color: rgb(225, 225, 115);
+    border-radius: 30px;
+    padding: 10px 43px;
+    color: black;
+
+}
+#link-6:hover{
+    background-color: rgb(186, 186, 100);
+}
+#link-7{
+    background-color: rgb(61, 60, 60);
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+}
+#link-7:hover{
+    background-color: rgb(42, 39, 39);
+}
+#link-8{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px 48px;
+    color: black;
+}
+#link-8:hover{
+    background-color: rgb(231, 157, 169);
+}
+
+
+/* page3 section  */
+#page3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 450px;
+}
+#page3::before{
+    content: "";
+    background-color: rgb(218, 230, 152);
+    z-index: -1;
+    position: absolute;
+    height: 500px;;
+    width: 100%;
+}
+.page3-head{
+    font-size: 4.7rem;
+    padding:30px 250px;
+}
+#page3 .page3-div{
+    font-size: 1.3rem;
+    padding: 0px 167px;
+}
+#page3 ul .item3{
+    list-style-type: none;
+    margin: 30px 225px ;
+}
+#page3 .item3 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#link-9{
+    background-color: rgb(103, 230, 103);
+    border-radius: 30px;
+    padding: 10px 59px;
+    color: white;
+}
+#link-9:hover{
+    background-color: rgb(84, 202, 84);
+}
+#link-10{
+    background-color: rgb(225, 225, 115);
+    border-radius: 30px;
+    padding: 10px 43px;
+    color: black;
+
+}
+#link-10:hover{
+    background-color: rgb(186, 186, 100);
+}
+#link-11{
+    background-color: rgb(61, 60, 60);
+    border-radius: 30px;
+    padding: 10px 42px;
+    color: white;
+}
+#link-11:hover{
+    background-color: rgb(42, 39, 39);
+}
+#link-12{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px 48px;
+    color: black;
+}
+#link-12:hover{
+    background-color: rgb(231, 157, 169);
+}
+
+/* page4 section  */
+#page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 470px;
+}
+#page4::before{
+    content: "";
+    background-color: rgb(30, 26, 26);
+    z-index: -1;
+    position: absolute;
+    height: 470px;;
+    width: 100%;
+}
+.page4-head{
+    font-size: 4.7rem;
+    padding:30px 155px;
+    color: white;
+}
+#page4 .page4-div{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0px 155px;
+}
+#page4 ul .item4{
+    list-style-type: none;
+    margin: 30px 225px ;
+}
+#page4 .item4 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#link-13{
+    background-color: rgb(103, 230, 103);
+    border-radius: 30px;
+    padding: 10px 45px;
+    color: white;
+}
+#link-13:hover{
+    background-color: rgb(84, 202, 84);
+}
+#link-14{
+    background-color: rgb(225, 225, 115);
+    border-radius: 30px;
+    padding: 10px 43px;
+    color: black;
+
+}
+#link-14:hover{
+    background-color: rgb(186, 186, 100);
+}
+#link-15{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: black;
+}
+#link-15:hover{
+    background-color: rgb(42, 39, 39);
+}
+#link-16{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px 60px;
+    color: black;
+}
+#link-16:hover{
+    background-color: rgb(231, 157, 169);
+}
+
+/* page5 section  */
+#page5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 470px;
+}
+#page5::before{
+    content: "";
+    background-color: #dcc6ca;
+    z-index: -1;
+    position: absolute;
+    height: 470px;;
+    width: 100%;
+}
+.page5-head{
+    font-size: 4.7rem;
+    padding:30px 212px;
+}
+#page5 .page5-div{
+    font-size: 1.3rem;
+    padding: 0px 180px;
+}
+#page5 ul .item5{
+    list-style-type: none;
+    margin: 30px 225px ;
+}
+#page5 .item5 a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#link-17{
+    background-color: rgb(103, 230, 103);
+    border-radius: 30px;
+    padding: 10px 45px;
+    color: white;
+}
+#link-17:hover{
+    background-color: rgb(84, 202, 84);
+}
+#link-18{
+    background-color: rgb(225, 225, 115);
+    border-radius: 30px;
+    padding: 10px 43px;
+    color: black;
+
+}
+#link-18:hover{
+    background-color: rgb(186, 186, 100);
+}
+#link-19{
+    background-color: rgb(61, 60, 60);
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+}
+#link-19:hover{
+    background-color: rgb(42, 39, 39);
+}
+#link-20{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px 48px;
+    color: black;
+}
+#link-20:hover{
+    background-color: rgb(231, 157, 169);
+}
+
+/* page6 section */
+#page6::before{
+    content: "";
+    background-color: rgb(60, 59, 59);
+    z-index: -1;
+    position: absolute;
+    height: 2200px;
+    width: 100%;
+}
+.box{
+    /* width: 50%;
+    height: 50%; */
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 30px 0px;
+}
+#page6 .page6-div1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.3rem;
+    text-align: center;
+    padding: 50px;
+}
+.page6-div1 .box1{
+    background-color: #f2fae7;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 70px 60px;
+}
+
+.box1 h1{
+    padding: 10px 0px;
+}
+.box1 div {
+    padding: 10px 0px;
+}
+.box1 .btn2{
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: rgb(55, 50, 50);
+    color: white;
+    cursor: pointer;
+}
+.box1 .btn2:hover{
+    background-color: rgb(41, 35, 35);  
+}
+#page6 .page6-div2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.3rem;
+    text-align: center;
+    padding: 50px;
+}
+.page6-div2 .box2{
+    background-color: #f4cee5;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 70px 60px;
+}
+.box1 h1{
+    padding: 10px 0px;
+}
+#page6 .page6-div3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.3rem;
+    text-align: center;
+    padding: 50px;
+}
+.page6-div3 .box3{
+    background-color: #b2e4f0;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 70px 60px;
+}
+.box3 h3{
+    padding: 10px 0px;
+}
+#page6 .page6-div4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.3rem;
+    text-align: center;
+    padding: 50px;
+}
+.page6-div4 .box4{
+    background-color: #efe97b;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 45px 60px;
+}
+.box4 h4{
+    padding: 5px 0px;
+}
+
+/* footer section */
+
+#foot::before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: -1;
+}
+#foot h1{
+    color: white;
+    text-align: center;
+}
+
+
